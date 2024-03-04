@@ -1,0 +1,741 @@
+[04:12:33] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[04:12:33] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.2.0-1019-azure
+[04:12:36] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[04:12:37] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23111!/ Service=ModLauncher Env=SERVER
+[04:12:37] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 5 dependencies adding them to mods collection
+[04:12:40] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[04:12:40] [main/INFO] [mixin]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[04:12:40] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[04:12:40] [main/WARN] [mixin]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:12:42] [main/WARN] [mixin]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[04:12:42] [main/WARN] [mixin]: Error loading class: net/minecraft/client/renderer/entity/PhantomRenderer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.PhantomRenderer)
+[04:12:42] [main/WARN] [mixin]: @Mixin target net.minecraft.client.renderer.entity.PhantomRenderer was not found mixins.deeperdarker.json:PhantomRendererMixin
+[04:12:42] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[04:12:42] [main/WARN] [mixin]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[04:12:42] [main/WARN] [mixin]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[04:12:42] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[04:12:42] [main/WARN] [mixin]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[04:12:42] [main/WARN] [mixin]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[04:12:42] [main/WARN] [mixin]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[04:12:42] [main/WARN] [mixin]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[04:12:42] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[04:12:51] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[04:12:51] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[04:12:51] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[04:12:51] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[04:12:51] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[04:12:51] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[04:12:51] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[04:12:51] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[04:12:51] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.2.20 Initialized
+[04:12:51] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.2.20 Initialized
+[04:12:51] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering POI for ResourceKey[minecraft:block / workers:miner_block]
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering POI for ResourceKey[minecraft:block / workers:lumberjack_block]
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering POI for ResourceKey[minecraft:block / workers:farmer_block]
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering POI for ResourceKey[minecraft:block / workers:merchant_block]
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering POI for ResourceKey[minecraft:block / workers:shepherd_block]
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering POI for ResourceKey[minecraft:block / workers:fisherman_block]
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering POI for ResourceKey[minecraft:block / workers:cattle_farmer_block]
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering POI for ResourceKey[minecraft:block / workers:chicken_farmer_block]
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering POI for ResourceKey[minecraft:block / workers:swineherd_block]
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering profession for miner with POI net.minecraftforge.registries.RegistryObject@84ce06a
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering profession for lumberjack with POI net.minecraftforge.registries.RegistryObject@2324e55
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering profession for farmer with POI net.minecraftforge.registries.RegistryObject@b5b6294e
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering profession for merchant with POI net.minecraftforge.registries.RegistryObject@e3fd43b3
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering profession for shepherd with POI net.minecraftforge.registries.RegistryObject@dc7f439a
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering profession for fisherman with POI net.minecraftforge.registries.RegistryObject@2b647820
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering profession for cattle_farmer with POI net.minecraftforge.registries.RegistryObject@2fbf1d36
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering profession for chicken_farmer with POI net.minecraftforge.registries.RegistryObject@8de71318
+[04:12:52] [modloading-worker-0/INFO] [workers]: Registering profession for swineherd with POI net.minecraftforge.registries.RegistryObject@5a68aad6
+[04:12:53] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[04:12:53] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Discovered 160 modules to load.
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Abacus...
+[04:12:53] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility]: ExpandAbility here, who dis?
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Adjustable Chat...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Ambient Discs...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Ancient Tomes...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Ancient Wood...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Armed Armor Stands...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Auto Walk Keybind...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Automatic Recipe Unlock...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Automatic Tool Restock...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Azalea Wood...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Back Button Keybind...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Backpack...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Beacon Redirection...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Better Elytra Rocket...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Big Stone Clusters...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Blossom Trees...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Bottled Cloud...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Buckets Show Inhabitants...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Camera...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Campfires Boost Elytra...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Celebratory Lamps...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Chains Connect Blocks...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Chest Searching...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Chorus Vegetation...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Chute...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Climate Control Remover...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Color Runes...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Compasses Work Everywhere...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Compressed Blocks...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Coral On Cactus...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Corundum...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Crabs...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Crafter...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Crate...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Diamond Repair...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Dispensers Place Blocks...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Double Door Opening...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Dragon Scales...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Duskbound Blocks...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Dyeable Item Frames...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Easy Transfering...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Elytra Indicator...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Emotes...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Enchantment Predicates...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Enchantments Begone...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Ender Watcher...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Endermosh Music Disc...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Enhanced Ladders...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Expanded Item Interactions...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Fairy Rings...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Feeding Trough...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Forgotten...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Foxhound...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Framed Glass...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Game Nerfs...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Glass Item Frame...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Glass Shard...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Glimmering Weald...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Gold Bars...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Gold Tools Have Fortune...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Grab Chickens...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Grate...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Gravisand...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Greener Grass...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Hedges...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Hoe Harvesting...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Hollow Logs...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Horses Swim...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Hotbar Changer...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Improved Sponges...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Improved Tooltips...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Industrial Palette...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Inventory Sorting...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Iron Rod...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Item Sharing...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Japanese Palette...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Leaf Carpet...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Lock Rotation...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Long Range Pick Block...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Magnets...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Map Washing...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Matrix Enchanting...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Metal Buttons...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Microcrafting Helper...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Midori...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Monster Box...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Banner Layers...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Brick Types...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Mud Blocks...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Note Block Sounds...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Potted Plants...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Narrator Readout...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Nether Brick Fence Gate...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Nether Obsidian Spikes...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module New Stone Types...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module No Durability On Cosmetics...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module No More Lava Pockets...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Obsidian Plate...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Overlay Shader...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Parrot Eggs...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pat The Dogs...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pathfinder Maps...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Permafrost...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pickarang...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pig Litters...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pipes...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Pistons Move Tile Entities...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Poison Potato Usage...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Quick Armor Swapping...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Rainbow Lamps...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Raw Metal Bricks...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Reacharound Placing...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Redstone Randomizer...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Renewable Spore Blossoms...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Replace Scaffolding...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Rope...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Safer Creatures...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Seed Pouch...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Shear Vines...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Shiba...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Shingles...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Shulker Packing...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Simple Harvest...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Skull Pikes...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Slabs To Blocks...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Slime In A Bucket...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Slimes To Magma Cubes...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Snow Golem Player Heads...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Soul Candles...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Soul Sandstone...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Spawner Replacer...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Spiral Spires...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Stonelings...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Stools...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Sturdy Stone...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Thatch...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Tiny Potato...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Torch Arrow...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Toretoise...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Totem Of Holding...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Trowel...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Usage Ticker...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Uses For Curses...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Utility Recipes...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Animal Textures...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Bookshelves...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Chests...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Furnaces...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Ladders...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Variant Selector...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Vertical Planks...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Vertical Slabs...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Vexes Die With Their Masters...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Villager Rerolling Rework...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Villagers Follow Emeralds...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Wooden Posts...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Wool Shuts Up Minecarts...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Wraith...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module Zombie Villagers On Normal...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructing module More Stone Variants...
+[04:12:53] [modloading-worker-0/INFO] [quark-zeta]: Constructed 160 modules.
+[04:12:53] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Configuration file /workspaces/codespaces-jupyter/Minecraft-server/config/quark-common.toml is not correct. Correcting
+[04:12:53] [main/INFO] [zeta-internal]: Dispatching ZRegister to 3 listeners
+[04:12:53] [main/INFO] [zeta-internal]: Dispatching ZRegister$Post to 1 listener
+[04:12:53] [main/INFO] [quark-zeta]: Dispatching ZRegister to 96 listeners
+[04:12:56] [main/INFO] [quark-zeta]: Dispatching ZRegister$Post to 6 listeners
+[04:12:59] [main/INFO] [quark-zeta]: Dispatching ForgeZEntityAttributeCreation (as ZEntityAttributeCreation) to 7 listeners
+[04:12:59] [main/INFO] [zeta-internal]: Dispatching ZConfigChanged to 2 listeners
+[04:12:59] [main/INFO] [zeta]: 'zeta' is enabling Zeta's piston structure resolver.
+[04:12:59] [Thread-1/INFO] [zeta-internal]: Dispatching ZConfigChanged to 2 listeners
+[04:12:59] [Thread-1/INFO] [zeta-internal]: Dispatching ZConfigChanged to 2 listeners
+[04:12:59] [main/INFO] [quark-zeta]: Dispatching ZConfigChanged to 45 listeners
+[04:13:00] [Thread-1/INFO] [quark-zeta]: Dispatching ZConfigChanged to 45 listeners
+[04:13:00] [modloading-worker-0/INFO] [zeta-internal]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 2 listeners
+[04:13:00] [modloading-worker-0/INFO] [workers]: Messages registered
+[04:13:00] [modloading-worker-0/INFO] [quark-zeta]: Dispatching ForgeZCommonSetup (as ZCommonSetup) to 40 listeners
+[04:13:00] [main/INFO] [journeymap]: Initializing Packet Registries
+[04:13:00] [main/INFO] [zeta-internal]: Dispatching ZConfigChanged to 2 listeners
+[04:13:00] [main/INFO] [quark-zeta]: Dispatching ZConfigChanged to 45 listeners
+[04:13:00] [modloading-worker-0/INFO] [zeta-internal]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 1 listener
+[04:13:00] [modloading-worker-0/INFO] [quark-zeta]: Dispatching ForgeZLoadComplete (as ZLoadComplete) to 6 listeners
+[04:13:00] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[04:13:00] [modloading-worker-0/INFO] [Jade]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[04:13:00] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[04:13:00] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[04:13:00] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[04:13:00] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[04:13:07] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:13:13] [main/ERROR] [Cristel Lib]: Cristel Lib Config Pack has no data
+[04:13:15] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs]: Adding datapack listener capsid_recipes
+[04:13:15] [main/INFO] [com.github.L_Ender.cataclysm.Cataclysm]: Adding datapack listener altar_of_amethyst_recipes
+[04:13:15] [main/INFO] [quark-zeta]: Dispatching ForgeZAddReloadListener (as ZAddReloadListener) to 2 listeners
+[04:13:15] [main/INFO] [zeta-internal]: Dispatching ForgeZAddReloadListener (as ZAddReloadListener) to 2 listeners
+[04:13:16] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[04:13:16] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[04:13:16] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe magistuarmory:giant_plume
+com.google.gson.JsonSyntaxException: Unknown item 'magistuarmory:giant_plume'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.20-universal.jar%23287!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.20-universal.jar%23287!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:380) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:370) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.20-universal.jar%23287!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[04:13:16] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[04:13:16] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[04:13:16] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[04:13:16] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe miningmaster:forging/paragon_shield
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'miningmaster:forging_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$8(RecipeManager.java:185) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:184) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[04:13:16] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[04:13:16] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[04:13:16] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe shieldexp:griefer_shield
+com.google.gson.JsonSyntaxException: Unknown item 'savage_and_ravage:blast_proof_plating'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:361) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:360) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:229) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.2.20-universal.jar%23287!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.2.20-universal.jar%23287!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:204) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:347) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:375) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:370) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.2.20-universal.jar%23287!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:186) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[04:13:16] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[04:13:16] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 23 recipes
+[04:13:16] [main/INFO] [quark]: [Automatic Recipe Unlock] Removed 3401 recipe advancements
+[04:13:16] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 566 advancements
+[04:13:16] [main/INFO] [twilightforest]: Loaded 9 Stalactite configs!
+[04:13:16] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 11 curio slots
+[04:13:16] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 1 curio entities
+[04:13:16] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[04:13:16] [main/INFO] [quark-zeta]: Modified advancement minecraft:adventure/kill_a_mob with 3 patches
+[04:13:16] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/bred_all_animals with 3 patches
+[04:13:16] [main/INFO] [quark-zeta]: Modified advancement minecraft:adventure/kill_all_mobs with 3 patches
+[04:13:16] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/balanced_diet with 2 patches
+[04:13:16] [main/INFO] [quark-zeta]: Modified advancement minecraft:nether/all_effects with 1 patches
+[04:13:16] [main/INFO] [quark-zeta]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[04:13:16] [main/INFO] [quark-zeta]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[04:13:16] [main/INFO] [quark-zeta]: Modified advancement minecraft:nether/all_potions with 1 patches
+[04:13:22] [main/INFO] [zeta-internal]: Dispatching ZTagsUpdated to 1 listener
+[04:13:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[04:13:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[04:13:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[04:13:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[04:13:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[04:13:22] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[04:13:22] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:13:22] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[04:13:22] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:13:22] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:13:22] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-580 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.2.20, NeoForge version 47.1.79)
+[04:13:24] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[04:13:24] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[04:13:24] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[04:13:24] [Server thread/INFO] [com.mohistmc.MohistMC]: Hello Plugins!
+[04:13:24] [Server thread/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[04:13:24] [Thread-1/INFO] [journeymap]: Loading JourneyMap Forge Configs
+[04:13:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[04:13:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[04:13:33] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:33] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:33] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:33] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:33] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:33] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:33] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:33] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:34] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:34] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:35] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 1%
+[04:13:35] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Exception loading entity: 
+net.minecraft.ReportedException: Loading entity NBT
+	at net.minecraft.world.entity.Entity.m_20258_(Entity.java:2076) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.entity.EntityType.m_185988_(EntityType.java:559) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.Util.m_137521_(Util.java:419) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.entity.EntityType.m_20642_(EntityType.java:556) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.entity.EntityType.m_20669_(EntityType.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.entity.EntityType.m_20645_(EntityType.java:590) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.world.entity.EntityType$1.m_147056_(EntityType.java:611) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at java.util.Spliterators$IteratorSpliterator.tryAdvance(Spliterators.java:1950) ~[?:?]
+	at net.minecraft.world.entity.EntityType$1.tryAdvance(EntityType.java:610) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at java.util.Spliterator.forEachRemaining(Spliterator.java:332) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at net.minecraft.world.level.chunk.storage.EntityStorage.m_223456_(EntityStorage.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18759_(ProcessorMailbox.java:91) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.m_18747_(ProcessorMailbox.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.util.thread.ProcessorMailbox.run(ProcessorMailbox.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:1029) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:173) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:1012) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:1006) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:982) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.MinecraftServer.m_129940_(MinecraftServer.java:575) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.MinecraftServer.prepareLevels(MinecraftServer.java:559) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServer.java:436) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServer.java:341) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:222) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:850) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:281) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Entity has invalid position
+	at net.minecraft.world.entity.Entity.m_20258_(Entity.java:2028) ~[server-1.20.1-20230612.114412-srg.jar%23282!/:?]
+	... 38 more
+[04:13:35] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[04:13:36] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 5861 ms
+[04:13:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[04:13:37] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:37] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:37] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:37] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 20%
+[04:13:37] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1859 ms
+[04:13:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[04:13:39] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:39] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:39] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:39] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:40] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:40] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[04:13:40] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2572 ms
+[04:13:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension deeperdarker:otherside
+[04:13:41] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:41] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:41] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:42] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 83%
+[04:13:42] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1574 ms
+[04:13:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension twilightforest:twilight_forest
+[04:13:43] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:43] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:43] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:13:43] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 25%
+[04:13:44] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1926 ms
+[04:13:44] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[04:13:44] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[04:13:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (20.090s)! For help, type "help"
+[04:13:44] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[04:13:44] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[04:13:44] [Server thread/INFO] [patchouli]: Sending reload packet to clients
+[04:14:03] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: com.mojang.authlib.GameProfile@6cefec75[id=31438020-501f-3402-aefe-6662c05fb43e,name=sans2020por,properties={},legacy=false] (/127.0.0.1:36528) lost connection: Disconnected
+[04:14:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 joined the game
+[04:14:38] [Server thread/INFO] [Jade]: Syncing config to Usernoob80 (373f3fd3-8e5c-3816-9a9f-0fd94c021e5a)
+[04:14:38] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Usernoob80[/127.0.0.1:55546] logged in with entity id 493 at ([world]-432.27144706857996, 67.0, 119.26968089362262)
+[04:14:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por joined the game
+[04:14:46] [Server thread/INFO] [Jade]: Syncing config to sans2020por (31438020-501f-3402-aefe-6662c05fb43e)
+[04:14:46] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: sans2020por[/127.0.0.1:55944] logged in with entity id 780 at ([world]-432.69999998807907, 68.0, 114.1284292056565)
+[04:15:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 1 [item.twilightforest.glass_sword] to Usernoob80]
+[04:15:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 has made the advancement [Acquire Hardware]
+[04:16:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was slain by Skeleton
+[04:17:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 has completed the challenge [advancement.twilightforest.glass_sword]
+[04:17:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was slain by Husk
+[04:17:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 1 [Stone Sword] to Usernoob80]
+[04:18:31] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /kill @e[type=minecraft:potion]
+[04:18:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Killed 11 entities]
+[04:18:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 fell from a high place
+[04:19:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por has made the advancement [Acquire Hardware]
+[04:20:02] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /teleport Usernoob80 sans2020por
+[04:20:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Teleported Usernoob80 to sans2020por]
+[04:20:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by sans2020por
+[04:21:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was shot by Skeleton
+[04:23:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 1 [item.twilightforest.squirrel_spawn_egg] to Usernoob80]
+[04:23:38] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /kill @e[type=minecraft:potion]
+[04:23:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was slain by Skeleton
+[04:23:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Skeleton
+[04:28:57] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /kill @e[type=minecraft:potion]
+[04:29:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Husk
+[04:30:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by sans2020por
+[04:30:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por has made the advancement [advancements.alexsmobs.grizzly_bear.title]
+[04:33:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por fell from a high place
+[04:34:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 suffocated in a wall
+[04:36:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por has made the advancement [Voluntary Exile]
+[04:38:38] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-151}
+[04:38:38] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-143}
+[04:38:46] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-176, y=-50, z=-133}
+[04:38:46] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-172, y=-50, z=-135}
+[04:38:46] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-185, y=-46, z=-142}
+[04:41:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por has made the advancement [Isn't It Iron Pick]
+[04:42:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 has made the advancement [Isn't It Iron Pick]
+[04:43:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 has made the advancement [Suit Up]
+[04:45:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by sans2020por
+[04:45:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was slain by Husk
+[04:45:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Husk
+[04:46:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Husk
+[04:47:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was slain by Husk
+[04:48:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Husk
+[04:48:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was killed by Area Effect Cloud using magic
+[04:49:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was killed by Area Effect Cloud using magic
+[04:49:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Husk
+[04:49:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Husk
+[04:51:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by sans2020por
+[04:52:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was slain by Skeleton
+[04:53:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por has made the advancement [Diamonds!]
+[04:57:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 fell from a high place
+[04:57:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 tried to swim in lava
+[04:57:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was shot by Skeleton
+[04:57:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 tried to swim in lava to escape Skeleton
+[04:58:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was slain by Usernoob80
+[04:59:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 1 [block.twilightforest.lich_boss_spawner] to Usernoob80]
+[04:59:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBomb
+[04:59:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 tried to swim in lava
+[04:59:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 tried to swim in lava
+[05:00:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBolt
+[05:00:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBomb
+[05:00:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBomb
+[05:01:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBomb
+[05:01:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBolt
+[05:01:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBomb
+[05:02:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBolt
+[05:02:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBolt
+[05:02:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBolt.player
+[05:03:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBomb
+[05:03:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBomb.player
+[05:03:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by entity.twilightforest.lich_minion
+[05:03:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBomb.player
+[05:04:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: death.attack.twilightforest.lichBomb.player
+[05:04:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 has reached the goal [advancement.twilightforest.kill_lich]
+[05:04:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by sans2020por
+[05:04:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 1 [block.twilightforest.minoshroom_boss_spawner] to Usernoob80]
+[05:06:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por has made the advancement [Suit Up]
+[05:06:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por fell from a high place
+[05:06:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Zombie
+[05:07:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Zombie
+[05:07:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 has made the advancement [Diamonds!]
+[05:08:13] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: sans2020por issued server command: /teleport Usernoob80
+[05:08:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [sans2020por: Teleported sans2020por to Usernoob80]
+[05:08:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 64 [Oak Wood] to Usernoob80]
+[05:08:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 1 [Oak Log] to Usernoob80]
+[05:08:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 63 [Oak Log] to Usernoob80]
+[05:08:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 1 [Flint and Steel] to Usernoob80]
+[05:08:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 has made the advancement [Sneak 100]
+[05:09:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por has made the advancement [Sneak 100]
+[05:09:02] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode spectator
+[05:09:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Spectator Mode]
+[05:09:08] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: sans2020por issued server command: /gamemode spectator
+[05:09:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [sans2020por: Set own game mode to Spectator Mode]
+[05:09:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 has reached the goal [advancements.deeperdarker.find_ancient_city.title]
+[05:09:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por has reached the goal [advancements.deeperdarker.find_ancient_city.title]
+[05:09:25] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[05:09:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[05:09:32] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: sans2020por issued server command: /gamemode survival
+[05:09:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [sans2020por: Set own game mode to Survival Mode]
+[05:09:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /teleport Usernoob80 sans2020por
+[05:09:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Teleported Usernoob80 to sans2020por]
+[05:11:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 1 [Iron Sword] to Usernoob80]
+[05:11:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was slain by Warden
+[05:12:17] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: sans2020por issued server command: /teleport Usernoob80
+[05:12:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [sans2020por: Teleported sans2020por to Usernoob80]
+[05:12:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Warden
+[05:12:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Warden
+[05:12:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was doomed to fall by Warden
+[05:13:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Warden
+[05:13:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 1 [item.artifacts.night_vision_goggles] to Usernoob80]
+[05:13:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 has made the advancement [artifacts.advancements.amateur_archaeologist.title]
+[05:13:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Warden
+[05:13:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 1 [item.twilightforest.triple_bow] to Usernoob80]
+[05:13:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 1 [Arrow of Poison] to Usernoob80]
+[05:14:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Gave 64 [Arrow of Poison] to Usernoob80]
+[05:14:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was obliterated by a sonically-charged shriek
+[05:15:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por has made the advancement [advancement.dungeons_arise.find_keep_kayra.title]
+[05:15:35] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-176, y=-50, z=-133}
+[05:15:35] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-172, y=-50, z=-135}
+[05:15:36] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-185, y=-46, z=-142}
+[05:15:36] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-292, y=-57, z=-313}
+[05:15:36] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-294, y=-57, z=-313}
+[05:15:36] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-296, y=-57, z=-313}
+[05:15:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Warden
+[05:15:39] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-151}
+[05:15:39] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-187, y=-46, z=-143}
+[05:15:39] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-291, y=-57, z=-315}
+[05:15:39] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-295, y=-57, z=-315}
+[05:15:39] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-293, y=-57, z=-315}
+[05:15:56] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /teleport Usernoob80 sans2020por
+[05:15:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Teleported Usernoob80 to sans2020por]
+[05:16:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 has made the advancement [advancement.dungeons_arise.find_keep_kayra.title]
+[05:17:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Zombie
+[05:18:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Skeleton
+[05:19:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was shot by Skeleton
+[05:20:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Skeleton
+[05:21:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Skeleton
+[05:23:44] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /teleport Usernoob80 sans2020por
+[05:23:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Teleported Usernoob80 to sans2020por]
+[05:24:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by sans2020por
+[05:24:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was shot by Usernoob80
+[05:26:56] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: sans2020por issued server command: /teleport Usernoob80
+[05:26:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [sans2020por: Teleported sans2020por to Usernoob80]
+[05:26:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by sans2020por
+[05:27:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was slain by Skeleton
+[05:27:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Skeleton
+[05:28:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Skeleton
+[05:28:49] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /teleport Usernoob80 sans2020por
+[05:28:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Teleported Usernoob80 to sans2020por]
+[05:29:12] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: sans2020por issued server command: /gamemode creative
+[05:29:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [sans2020por: Set own game mode to Creative Mode]
+[05:29:20] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[05:29:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[05:29:53] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: sans2020por issued server command: /gamemode survival
+[05:29:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [sans2020por: Set own game mode to Survival Mode]
+[05:31:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por fell from a high place
+[05:32:55] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[05:32:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[05:34:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 was slain by Skeleton
+[05:34:25] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: sans2020por issued server command: /gamemode spectator
+[05:34:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [sans2020por: Set own game mode to Spectator Mode]
+[05:34:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[05:34:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[05:34:57] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[05:34:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[05:35:18] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /teleport Usernoob80 sans2020por
+[05:35:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Teleported Usernoob80 to sans2020por]
+[05:35:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por has made the advancement [advancements.alexscaves.root.title]
+[05:35:44] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[05:35:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[05:35:46] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode spectator
+[05:35:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Spectator Mode]
+[05:36:09] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[05:36:09] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[05:36:26] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode spectator
+[05:36:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Spectator Mode]
+[05:36:30] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[05:36:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[05:36:31] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[05:36:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[05:36:43] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[05:36:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[05:40:49] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 moved too quickly! 11.053124609425026,0.0,-3.684148883832904
+[05:40:55] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 moved too quickly! 9.032345271522559,2.115927269703775,-9.764430987512242
+[05:41:21] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-106, y=-32, z=-216}
+[05:41:50] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /tick freese
+[05:41:54] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /tick freeze
+[05:45:26] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[05:45:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[05:45:31] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[05:45:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[05:47:58] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity]: Hanging entity at invalid position: BlockPos{x=-99, y=-32, z=-208}
+[05:50:11] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: sans2020por issued server command: /teleport Usernoob80
+[05:50:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [sans2020por: Teleported sans2020por to Usernoob80]
+[05:50:22] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: sans2020por issued server command: /gamemode survival
+[05:50:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [sans2020por: Set own game mode to Survival Mode]
+[05:50:28] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[05:50:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[05:50:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por was slain by Usernoob80
+[05:50:51] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[05:50:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[05:51:08] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[05:51:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[05:52:27] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode spectator
+[05:52:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Spectator Mode]
+[05:52:55] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[05:52:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[05:53:55] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode spectator
+[05:53:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Spectator Mode]
+[05:56:30] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: sans2020por lost connection: Disconnected
+[05:56:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: sans2020por left the game
+[05:56:34] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /locate structure #cataclysm:eye_of_desert_located
+[05:56:52] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand]: Locating element #cataclysm:eye_of_desert_located (cataclysm:cursed_pyramid) took 18184 ms
+[05:56:52] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[05:56:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[05:56:52] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 moved too quickly! -69.07897175279004,1.8679934956172133,-6.672655179285897
+[05:56:53] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[05:56:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[05:56:54] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[05:56:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[05:57:23] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /teleport 11584 99 -11200
+[05:57:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Teleported Usernoob80 to 11584.500000, 99.000000, -11199.500000]
+[05:57:31] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 moved too quickly! 0.0,-10.806526110008988,0.0
+[05:57:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[05:57:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[05:57:48] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[05:57:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[05:58:55] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[05:58:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[05:59:16] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[05:59:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[06:01:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 has made the advancement [advancements.cataclysm.cursed_pyramid.title]
+[06:01:36] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[06:01:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[06:01:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[06:01:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[06:02:04] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[06:02:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[06:02:11] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[06:02:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[06:02:36] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[06:02:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[06:02:41] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[06:02:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[06:02:46] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode survival
+[06:02:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Survival Mode]
+[06:04:14] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[06:04:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[06:04:29] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode spectator
+[06:04:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Spectator Mode]
+[06:04:49] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[06:04:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[06:04:57] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode spectator
+[06:04:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Spectator Mode]
+[06:05:20] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[06:05:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[06:05:22] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode spectator
+[06:05:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Spectator Mode]
+[06:05:38] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 issued server command: /gamemode creative
+[06:05:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Usernoob80: Set own game mode to Creative Mode]
+[06:05:50] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Usernoob80 lost connection: Disconnected
+[06:05:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Usernoob80 left the game
